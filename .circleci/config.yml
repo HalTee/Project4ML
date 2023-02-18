@@ -39,5 +39,5 @@ steps:
     - run:
         name: run lint
         command: |
-            . venv/bin/activate
+            - venv/bin/activate
             make lint 
